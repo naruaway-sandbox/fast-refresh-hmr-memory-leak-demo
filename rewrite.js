@@ -4,7 +4,7 @@ import { setTimeout as sleep } from "node:timers/promises";
 const targetFilePaths = [
   "./src/app/appdir/page.jsx",
   "./src/App.jsx",
-  "./src/pages/App.jsx",
+  "./src/pages/index.jsx",
 ];
 
 // Just edit target files 1000 times with 100ms intervals
