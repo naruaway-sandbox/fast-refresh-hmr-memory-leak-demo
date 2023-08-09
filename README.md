@@ -37,3 +37,5 @@ I'll create PRs for these and will update here later.
 After installing packages via `npm ci`, you can run either of `npm run vite`, `npm run webpack`, or `npm run next`.
 Then open the page using Google Chrome for memory inspection and run `npm run rewrite` in another terminal, which will update source files 1000 times in 100ms intervals.
 And you can watch the memory usage will increase to around several hundreds megabytes.
+
+![screenshot](./assets/chrome-memory-screenshot.png)
