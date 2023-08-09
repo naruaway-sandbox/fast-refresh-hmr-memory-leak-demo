@@ -5,6 +5,7 @@
   "scripts": {
     "vite": "./node_modules/.bin/vite",
     "webpack": "./node_modules/.bin/webpack serve",
+    "next": "./node_modules/.bin/next",
     "rewrite": "node ./rewrite.js"
   },
   "dependencies": {
@@ -13,6 +14,7 @@
     "@vitejs/plugin-react": "4.0.4",
     "babel-loader": "9.1.3",
     "html-webpack-plugin": "5.5.3",
+    "next": "13.4.13",
     "prettier": "3.0.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
