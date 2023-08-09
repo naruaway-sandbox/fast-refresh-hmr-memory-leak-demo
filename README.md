@@ -29,7 +29,8 @@ However, I just found that the following latest tools have the memory leak issue
 
 - `@pmmmwh/react-refresh-webpack-plugin@0.5.10`
   - PR: https://github.com/pmmmwh/react-refresh-webpack-plugin/pull/766
-- `next@13.4.13`
+- `next@13.4.14-canary.1`
+  - PR: https://github.com/vercel/next.js/pull/53797
 
 I'll create PRs for these and will update here later.
 
