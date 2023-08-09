@@ -28,6 +28,7 @@ When not using ES Modules for updated code loading, technically it should be pos
 However, I just found that the following latest tools have the memory leak issue unnecessarily as of 2023-08-09:
 
 - `@pmmmwh/react-refresh-webpack-plugin@0.5.10`
+  - PR: https://github.com/pmmmwh/react-refresh-webpack-plugin/pull/766
 - `next@13.4.13`
 
 I'll create PRs for these and will update here later.
