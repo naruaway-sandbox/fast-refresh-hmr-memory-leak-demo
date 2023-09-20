@@ -25,16 +25,16 @@ export const App = () => {
 ```
 
 When not using ES Modules for updated code loading, technically it should be possible to avoid retaining previous versions of `App` forever.
-However, I just found that the following latest tools have the memory leak issue unnecessarily as of 2023-08-09:
+However, I just found that the following tools have the memory leak issue unnecessarily as of 2023-09-20:
 
-- `@pmmmwh/react-refresh-webpack-plugin@0.5.10`
+- `@pmmmwh/react-refresh-webpack-plugin@0.5.10` had a memory leak
   - PR: https://github.com/pmmmwh/react-refresh-webpack-plugin/pull/766
-- `next@13.4.14-canary.1`
+    - :tada: This is merged and `@pmmmwh/react-refresh-webpack-plugin@0.5.11` does not have a memory leak
+- `next@13.5.1` has a memory leak
   - PR: https://github.com/vercel/next.js/pull/53797
 
-I'll create PRs for these and will update here later.
 
-## How to play with memory leaks
+## How to play with memory leaks reproduction in this repo
 
 After installing packages via `npm ci`, you can run either of `npm run vite`, `npm run webpack`, or `npm run next`.
 Then open the page using Google Chrome for memory inspection and run `npm run rewrite` in another terminal, which will update source files 1000 times in 100ms intervals.
