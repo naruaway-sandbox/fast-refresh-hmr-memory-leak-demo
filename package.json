@@ -1,6 +1,8 @@
 {
+  "private": true,
   "type": "module",
   "name": "fast-refresh-hmr-memory-leak-demo",
+  "license": "CC0-1.0",
   "version": "0.1.0",
   "scripts": {
     "vite": "./node_modules/.bin/vite",
