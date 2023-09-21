@@ -32,6 +32,7 @@ However, I just found that the following tools have the memory leak issue unnece
     - :tada: This is merged and `@pmmmwh/react-refresh-webpack-plugin@0.5.11` does not have a memory leak
 - `next@13.5.1` has a memory leak
   - PR: https://github.com/vercel/next.js/pull/53797
+    - :tada: This is merged and waiting for the next release
 
 
 ## How to play with memory leaks reproduction in this repo
