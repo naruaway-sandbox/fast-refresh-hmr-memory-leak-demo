@@ -33,6 +33,7 @@ However, I just found that the following tools have the memory leak issue and tr
 - `next@13.5.1` has a memory leak
   - PR: https://github.com/vercel/next.js/pull/53797
     - :tada: This is merged and `next@13.5.3-canary.1` does not have a memory leak
+- :cry: We cannot fix `vite` easily since it's using ESM for HMR as discussed above. I opened a discussion: [Using ESM for Vite HMR always causes memory leak · vitejs/vite · Discussion #14438](https://github.com/vitejs/vite/discussions/14438)
 
 
 ## How to play with memory leaks reproduction in this repo
